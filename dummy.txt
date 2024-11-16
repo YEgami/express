@@ -36,6 +36,17 @@ exit
 ファイル変更チェック2024/11/09
 ファイル追加変更チェック
 ファイル追加変更チェック2024/11/16
+MongoDBレポジトリを作成して接続
+
+Gitにレポジトリ作成
+git init
+git add .
+git commit -m "nanika"
+git branch -M main
+git remote ~~
+git push origin main
+
+で接続
 
 ----
 MongoDB接続情報
