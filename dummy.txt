@@ -36,3 +36,12 @@ exit
 ファイル変更チェック2024/11/09
 ファイル追加変更チェック
 ファイル追加変更チェック2024/11/16
+
+----
+MongoDB接続情報
+https://account.mongodb.com/account/login
+2101145044st@cyber-u.ac.jp
+qc2XqUggKT:s8.P
+
+yujiegamicu
+Wizard0522!
