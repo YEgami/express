@@ -45,3 +45,5 @@ qc2XqUggKT:s8.P
 
 yujiegamicu
 Wizard0522!
+
+mongodb+srv://yujiegamicu:Wizard0522!@cluster0.qvkr2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
