@@ -1,18 +1,21 @@
 var express = require('express');
 var router = express.Router();
+const cors = require('cors');
+
 
 const { MongoClient } = require("mongodb");
 const uri = "*******";
 const client = new MongoClient(uri);
+
+router.use(cors());
 
 router.get('/', async (req, res) => {
     //データベースの指定
     const database = client.db('notes');
     const notes = database.collection('notes');
 
-    //データベースからデータ取得 id2を取得
-    const query = {id:1};
-    const note = await notes.findOne(query);
+    // 全てのドキュメントを取得
+    const note = await notes.find({}).toArray();
 
     res.json(note);
 })

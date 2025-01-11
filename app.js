@@ -10,6 +10,7 @@ var helloRouter = require('./routes/hello'); //追加
 var notesRouter = require('./routes/notes'); //追加第6回
 var catRouter = require('./routes/cat'); //追加第8回 
 var yesnoRouter = require('./routes/yesno'); //追加第8回レポート用 
+var notes_from_bRouter = require('./routes/notes_from_b'); //追加第8回レポート用 
 
 
 var app = express();
@@ -30,6 +31,7 @@ app.use('/hello', helloRouter); //追加
 app.use('/notes', notesRouter); //追加第6回
 app.use('/cat', catRouter); //追加第8回
 app.use('/yesno', yesnoRouter); //追加第8回レポート用
+app.use('/notes_from_b', notes_from_bRouter); //Notes from b
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
