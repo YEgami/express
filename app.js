@@ -10,7 +10,7 @@ var helloRouter = require('./routes/hello'); //追加
 var notesRouter = require('./routes/notes'); //追加第6回
 var catRouter = require('./routes/cat'); //追加第8回 
 var yesnoRouter = require('./routes/yesno'); //追加第8回レポート用 
-var notes_from_bRouter = require('./routes/notes_from_b'); //追加第8回レポート用 
+var notes_from_bRouter = require('./routes/notes_from_b'); //第14回 
 
 
 var app = express();

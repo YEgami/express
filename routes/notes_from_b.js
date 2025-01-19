@@ -4,7 +4,7 @@ const cors = require('cors');
 
 
 const { MongoClient } = require("mongodb");
-const uri = "*******";
+const uri = "mongodb+srv://yujiegamicu:Wizard0522!@cluster0.qvkr2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri);
 
 router.use(cors());
