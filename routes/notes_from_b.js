@@ -1,10 +1,10 @@
 var express = require('express');
 var router = express.Router();
 const cors = require('cors');
-
+require('dotenv').config(); // npm install dotenv でdotenvを入れないとダメ
 
 const { MongoClient } = require("mongodb");
-const uri = "mongodb+srv://******";
+const uri = process.env.MONGODB_URI;
 const client = new MongoClient(uri);
 
 router.use(cors());
